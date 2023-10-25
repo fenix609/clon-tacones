@@ -39,6 +39,14 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </menu>
 
 <menu>
+<title>[COLOR white]•[/COLOR] [B][COLOR red]SERIES [/COLOR][/B]</title>
+<thumbnail>https://i.imgur.com/ASLlVXw.png</thumbnail>
+<fanart>https://i.imgur.com/8L5Aaw9.jpg</fanart>
+<link>http://ignoreme</link>
+<externallink>https://pastebin.com/raw/DdUcSiPk</externallink>
+</menu>
+
+<menu>
 <title>[COLOR white]•[/COLOR] [B][COLOR red]DOCUMENTALES[/COLOR][/B]</title>
 <thumbnail>https://i.imgur.com/bcXqj1N.png</thumbnail>
 <fanart>https://i.imgur.com/22egwFT.jpg</fanart>
@@ -52,14 +60,6 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <fanart>https://i.imgur.com/IQjr0ib.jpg</fanart>
 <link>http://ignoreme</link>
 <externallink>https://pastebin.com/raw/1dGdcZ8f</externallink>
-</menu>
-
-<menu>
-<title>[COLOR white]•[/COLOR] [B][COLOR red]SERIES [/COLOR][/B]</title>
-<thumbnail>https://i.imgur.com/ASLlVXw.png</thumbnail>
-<fanart>https://i.imgur.com/8L5Aaw9.jpg</fanart>
-<link>http://ignoreme</link>
-<externallink>https://pastebin.com/raw/DdUcSiPk</externallink>
 </menu>
 
 <menu>
