@@ -1,173 +1,35 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-
-<menus>
-<menus_info>
-<title>[COLOR white]•[/COLOR] [B][COLOR red]TACONES[/COLOR][/B]</title>
-<genre>ALL</genre>
-<description>Addon sin animo de lucro y con fines exclusivamente educativos</description>
-<thumbnail>https://i.imgur.com/Umxexj7.png</thumbnail>
-<fanart>https://i.imgur.com/t1Br0t4.jpg</fanart>
-</menus_info>  
-
-<menu>
-<title>[COLOR red]•[/COLOR] [B][COLOR white]¿Problemas con Tacones en K18 Leia?[/COLOR][COLOR red]   Pincha aquí[/COLOR][/B]</title>
-<link>$doregex[get-decode]</link>
-<regex> 
-<name>get-decode</name> 
-<expres><![CDATA[#$pyFunction
-import re
-import HTMLParser
-import sys
-reload(sys)
-sys.setdefaultencoding("utf-8")
-def GetLSProData(page_data,Cookie_Jar,m):
- parser = HTMLParser.HTMLParser()
- return re.sub("(&.+?;)", lambda m: parser.unescape(m.group()), page_data)
-]]></expres>
-<page>https://bit.ly/3J9ePeg</page>
-</regex>
-<thumbnail>https://i.imgur.com/Umxexj7.png</thumbnail>
-<fanart>https://i.imgur.com/t1Br0t4.jpg</fanart>
-</menu>
-
-<menu>
-<title>[COLOR white]•[/COLOR] [B][COLOR red]CINE[/COLOR][/B]</title>
-<thumbnail>https://i.imgur.com/gyUWTyK.png</thumbnail>
-<fanart>https://i.imgur.com/R7oMOZO.jpg</fanart>
-<link>http://ignoreme</link>
-<externallink>https://bit.ly/3EBRlei</externallink>
-</menu>
-
-<menu>
-<title>[COLOR white]•[/COLOR] [B][COLOR red]DOCUMENTALES[/COLOR][/B]</title>
-<thumbnail>https://i.imgur.com/bcXqj1N.png</thumbnail>
-<fanart>https://i.imgur.com/22egwFT.jpg</fanart>
-<link>http://ignoreme</link>
-<externallink>https://pastebin.com/raw/v4c5Myfn</externallink>
-</menu>
-
-<menu>
-<title>[COLOR white]•[/COLOR] [B][COLOR red]REPETICIONES[/COLOR][COLOR white]       MOTOR [/COLOR][/B]</title>
-<thumbnail>https://i.imgur.com/7fME6Vg.png</thumbnail>
-<fanart>https://i.imgur.com/IQjr0ib.jpg</fanart>
-<link>http://ignoreme</link>
-<externallink>https://pastebin.com/raw/1dGdcZ8f</externallink>
-</menu>
-
-<menu>
-<title>[COLOR white]•[/COLOR] [B][COLOR red]SERIES [/COLOR][/B]</title>
-<thumbnail>https://i.imgur.com/ASLlVXw.png</thumbnail>
-<fanart>https://i.imgur.com/8L5Aaw9.jpg</fanart>
-<link>http://ignoreme</link>
-<externallink>https://pastebin.com/raw/DdUcSiPk</externallink>
-</menu>
-
-<menu>
-<title>[COLOR white]•[/COLOR] [B][COLOR red]TDTChannels[/COLOR][COLOR white]       RADIO  [/COLOR][/B]</title>
-<link>$doregex[groupname]</link>
-<regex>
-<name>groupname</name>
-<listrepeat><![CDATA[
-  <title>[groupname.param1]</title>
-  <link>$doregex[tvchannels]</link>
-  <thumbnail>https://i.imgur.com/6M9kUPT.png</thumbnail>
-  <fanart>https://i.imgur.com/dgmVSVF.jpg</fanart>
-]]></listrepeat>
-<expres><![CDATA[#$pyFunction
-import re,requests
-def GetLSProData(page_data,Cookie_Jar,m):
-  list = requests.get('https://www.tdtchannels.com/lists/radio.m3u').text
-  match = re.compile('group-title="([^"]+)"').findall(list)
-  seccion_list = []
-  for x in match:
-    if x not in seccion_list:
-      seccion_list.append(x)
-  return seccion_list
-]]></expres>
-<page></page>
-</regex>
-<regex>
-<name>tvchannels</name>
-<listrepeat><![CDATA[
-  <title>[tvchannels.param3]</title>
-  <link>[tvchannels.param4]</link>
-  <thumbnail>[tvchannels.param1]</thumbnail>
-  <fanart>https://i.imgur.com/dgmVSVF.jpg</fanart>
-]]></listrepeat>
-<expres><![CDATA[#$pyFunction
-import re, requests
-def GetLSProData(page_data,Cookie_Jar,m):
-  list = requests.get('https://www.tdtchannels.com/lists/radio.m3u').text
-  data = re.findall('EXTINF.*tvg-logo="([^"]+)".group-title="[groupname.param1]".tvg-name="([^"]+)",(.*)\n(.*)',list)
-  data.sort()
-  return data
-]]></expres>
-<page></page>
-</regex>
-<thumbnail>https://i.imgur.com/6M9kUPT.png</thumbnail>
-<fanart>https://i.imgur.com/dgmVSVF.jpg</fanart>
-</menu>
-
-
-<menu>
-<title>[COLOR white]•[/COLOR] [B][COLOR red]TDTChannels[/COLOR][COLOR white]       TELEVISION  [/COLOR][/B]</title>
-<link>$doregex[groupname]</link>
-<regex>
-<name>groupname</name>
-<listrepeat><![CDATA[
-  <title>[groupname.param1]</title>
-  <link>$doregex[tvchannels]</link>
-  <thumbnail>https://i.imgur.com/6M9kUPT.png</thumbnail>
-<fanart>https://i.imgur.com/IJupcZz.jpg</fanart>
-]]></listrepeat>
-<expres><![CDATA[#$pyFunction
-import re,requests
-def GetLSProData(page_data,Cookie_Jar,m):
-  list = requests.get('https://www.tdtchannels.com/lists/tv.m3u').text
-  match = re.compile('group-title="([^"]+)"').findall(list)
-  seccion_list = []
-  for x in match:
-    if x not in seccion_list:
-      seccion_list.append(x)
-  return seccion_list
-]]></expres>
-<page></page>
-</regex>
-<regex>
-<name>tvchannels</name>
-<listrepeat><![CDATA[
-  <title>[tvchannels.param3]</title>
-  <link>[tvchannels.param4]</link>
-  <thumbnail>[tvchannels.param1]</thumbnail>
-  <fanart>https://i.imgur.com/IJupcZz.jpg</fanart>
-]]></listrepeat>
-<expres><![CDATA[#$pyFunction
-import re, requests
-def GetLSProData(page_data,Cookie_Jar,m):
-  list = requests.get('https://www.tdtchannels.com/lists/tv.m3u').text
-  data = re.findall('EXTINF.*tvg-logo="([^"]+)".group-title="[groupname.param1]".tvg-name="([^"]+)",(.*)\n(.*)',list)
-  data.sort()
-  return data
-]]></expres>
-<page></page>
-</regex>
-<thumbnail>https://i.imgur.com/6M9kUPT.png</thumbnail>
-<fanart>https://i.imgur.com/IJupcZz.jpg</fanart>
-</menu>
-
-<menu>
-<title>[COLOR red]•[/COLOR] [B][COLOR white]ADDON TACONES[/COLOR][COLOR red]                        LA MALA DE LA NOVELA[/COLOR][/B]</title>
-<utube>Sgnp9ZaXHFw</utube>
-<thumbnail>https://i.imgur.com/Umxexj7.png</thumbnail>
-<fanart>https://i.imgur.com/t1Br0t4.jpg</fanart>
-</menu>
-
-
-<menu>
-<title>[COLOR red]•[/COLOR] [B][COLOR white]GRUPO AYUDA TELEGRAM[/COLOR][COLOR red]       @KODISPAIN [/COLOR][/B]</title>
-<utube>Sgnp9ZaXHFw</utube>
-<thumbnail>https://i.imgur.com/uDzZNhh.png</thumbnail>
-<fanart>https://i.imgur.com/PsmVh6X.jpg</fanart>
-</menu>
-
-</menus>
+<addon id="plugin.video.pruebas" name="[COLOR red]CLON TACONES[/COLOR]" version="3.0.0" provider-name="">
+	<requires>
+		<import addon="script.module.six" />
+		<import addon="script.module.kodi-six" />
+		<import addon="script.module.requests" optional="true"/>
+		<import addon="script.module.websocket" version="0.50.0"  optional="true"/>
+		<import addon="script.module.youtube.dl" optional="true"/>
+		<import addon="plugin.video.youtube" optional="true" />
+		<import addon="script.module.dateutil" optional="true" />
+		<import addon="script.module.resolveurl" optional="true"/>
+		<import addon="script.module.urlresolver" optional="true"/>
+		<import addon="script.module.cloudscraper" optional="true"/>
+		<import addon="script.module.inputstreamhelper" optional="true"/>
+		<import addon="script.module.slproxy" optional="true"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	
+	<extension point="xbmc.addon.metadata">
+		<summary>CLON TACONES</summary>
+		<description>Addon sin ánimo de lucro y con fines exclusivamente educativos</description>
+		<platform>all</platform>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+			<screenshot>resources/media/screenshoot-1.jpg</screenshot>
+			<screenshot>resources/media/screenshoot-2.jpg</screenshot>
+			<screenshot>resources/media/screenshoot-3.jpg</screenshot>
+			<screenshot>resources/media/screenshoot-4.jpg</screenshot>
+		</assets>
+		<news>Primera versión también compatible con Kodi 19 Matrix</news>
+	</extension>
+</addon>
