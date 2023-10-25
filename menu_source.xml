@@ -2,11 +2,11 @@
 
 <menus>
 <menus_info>
-<title>[COLOR white]•[/COLOR] [B][COLOR red]TACONES[/COLOR][/B]</title>
+<title>[COLOR white]•[/COLOR] [B][COLOR red]CLON TACONES[/COLOR][/B]</title>
 <genre>ALL</genre>
 <description>Addon sin animo de lucro y con fines exclusivamente educativos</description>
-<thumbnail>https://i.imgur.com/Umxexj7.png</thumbnail>
-<fanart>https://i.imgur.com/t1Br0t4.jpg</fanart>
+<thumbnail></thumbnail>
+<fanart></fanart>
 </menus_info>  
 
 <menu>
@@ -153,21 +153,6 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 <thumbnail>https://i.imgur.com/6M9kUPT.png</thumbnail>
 <fanart>https://i.imgur.com/IJupcZz.jpg</fanart>
-</menu>
-
-<menu>
-<title>[COLOR red]•[/COLOR] [B][COLOR white]ADDON TACONES[/COLOR][COLOR red]                        LA MALA DE LA NOVELA[/COLOR][/B]</title>
-<utube>Sgnp9ZaXHFw</utube>
-<thumbnail>https://i.imgur.com/Umxexj7.png</thumbnail>
-<fanart>https://i.imgur.com/t1Br0t4.jpg</fanart>
-</menu>
-
-
-<menu>
-<title>[COLOR red]•[/COLOR] [B][COLOR white]GRUPO AYUDA TELEGRAM[/COLOR][COLOR red]       @KODISPAIN [/COLOR][/B]</title>
-<utube>Sgnp9ZaXHFw</utube>
-<thumbnail>https://i.imgur.com/uDzZNhh.png</thumbnail>
-<fanart>https://i.imgur.com/PsmVh6X.jpg</fanart>
 </menu>
 
 </menus>
