@@ -9,27 +9,6 @@
 <fanart></fanart>
 </menus_info>  
 
-<!-- <menu>
-<title>[COLOR red]•[/COLOR] [B][COLOR white]¿Problemas con Tacones en K18 Leia?[/COLOR][COLOR red]   Pincha aquí[/COLOR][/B]</title>
-<link>$doregex[get-decode]</link>
-<regex> 
-<name>get-decode</name> 
-<expres><![CDATA[#$pyFunction
-import re
-import HTMLParser
-import sys
-reload(sys)
-sys.setdefaultencoding("utf-8")
-def GetLSProData(page_data,Cookie_Jar,m):
- parser = HTMLParser.HTMLParser()
- return re.sub("(&.+?;)", lambda m: parser.unescape(m.group()), page_data)
-]]></expres>
-<page>https://bit.ly/3J9ePeg</page>
-</regex>
-<thumbnail>https://i.imgur.com/Umxexj7.png</thumbnail>
-<fanart>https://i.imgur.com/t1Br0t4.jpg</fanart>
-</menu> -->
-
 <menu>
 <title>[COLOR white]•[/COLOR] [B][COLOR red]CINE[/COLOR][/B]</title>
 <thumbnail>https://i.imgur.com/gyUWTyK.png</thumbnail>
