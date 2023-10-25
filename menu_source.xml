@@ -9,7 +9,7 @@
 <fanart></fanart>
 </menus_info>  
 
-<menu>
+<!-- <menu>
 <title>[COLOR red]•[/COLOR] [B][COLOR white]¿Problemas con Tacones en K18 Leia?[/COLOR][COLOR red]   Pincha aquí[/COLOR][/B]</title>
 <link>$doregex[get-decode]</link>
 <regex> 
@@ -28,7 +28,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 <thumbnail>https://i.imgur.com/Umxexj7.png</thumbnail>
 <fanart>https://i.imgur.com/t1Br0t4.jpg</fanart>
-</menu>
+</menu> -->
 
 <menu>
 <title>[COLOR white]•[/COLOR] [B][COLOR red]CINE[/COLOR][/B]</title>
