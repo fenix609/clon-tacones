@@ -51,7 +51,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <fanart>[index.param7]</fanart>
 ]]></listrepeat>
 <expres>title.(.*)..title.\s*.microhd.(.*)..microhd.\s*.fullhd.([^NA]+)..fullhd.\s*.tresd.(.*)..tresd.\s*.cuatrok.(.*)..cuatrok.\s*.thumbnail.(.*)..thumbnail.\s*.fanart.(.*)..fanart.\s*.date.(.*)..date.\s*.genre.(.*)..genre.\s*.extra.(.*)..extra.\s*.info.(.*)..info.</expres>
-<page>https://gitlab.com/stiletto1/s/-/raw/main/c</page>
+<page>https://raw.githubusercontent.com/fenix609/clon-tacones/main/cine/menu%20calidad%20bdrip.xml</page>
 </regex>
 <regex>
 <name>gestor</name>
