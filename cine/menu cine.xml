@@ -7,7 +7,7 @@
 <fanart>https://i.imgur.com/mAe2igo.jpg</fanart>
 </menu>
 <menu>
- Created by Someone Like You 
+
 <title>[COLOR white]•[/COLOR] [B][COLOR red]BUSCADOR[/COLOR][/B]</title>
 <link>$doregex[results]</link>
 <regex>
