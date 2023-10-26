@@ -2,11 +2,11 @@
 
 <menus>
 <menus_info>
-<title>[COLOR white]•[/COLOR] [B][COLOR red]CLON TACONES[/COLOR][/B]</title>
+<title>[COLOR white]•[/COLOR] [B][COLOR red]Addon Fenix[/COLOR][/B]</title>
 <genre>ALL</genre>
 <description>Addon sin animo de lucro y con fines exclusivamente educativos</description>
-<thumbnail></thumbnail>
-<fanart></fanart>
+<thumbnail>icon.png</thumbnail>
+<fanart>fanart.jpg</fanart>
 </menus_info>  
 
 <!-- <menu>
@@ -29,6 +29,14 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail>https://i.imgur.com/Umxexj7.png</thumbnail>
 <fanart>https://i.imgur.com/t1Br0t4.jpg</fanart>
 </menu> -->
+
+<item>
+<title>Recetas de Cocina</title>
+<thumbnail>https://github.com/fenix609/clon-tacones/blob/main/cocina/icon%20cocina.png</thumbnail>
+<fanart>https://github.com/fenix609/clon-tacones/blob/main/cocina/fanart%20cocina.jpg</fanart>
+<link>http://ignoreme</link>
+<externallink>https://raw.githubusercontent.com/fenix609/addon/main/test1.xml</externallink>
+</item>
 
 <menu>
 <title>[COLOR white]•[/COLOR] [B][COLOR red]CINE[/COLOR][/B]</title>
