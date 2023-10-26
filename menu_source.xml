@@ -31,7 +31,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </menu> -->
 
 <menu>
-<title>Recetas de Cocina</title>
+<title>[COLOR white]•[/COLOR] [B][COLOR lime]RECETAS DE COCINA[/COLOR][/B]</title>
 <thumbnail>https://github.com/fenix609/clon-tacones/blob/main/cocina/icon%20cocina.png</thumbnail>
 <fanart>https://github.com/fenix609/clon-tacones/blob/main/cocina/fanart%20cocina.jpg</fanart>
 <link>http://ignoreme</link>
