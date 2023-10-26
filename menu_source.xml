@@ -55,14 +55,6 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </menu>
 
 <menu>
-<title>[COLOR white]•[/COLOR] [B][COLOR red]DOCUMENTALES[/COLOR][/B]</title>
-<thumbnail>https://i.imgur.com/bcXqj1N.png</thumbnail>
-<fanart>https://i.imgur.com/22egwFT.jpg</fanart>
-<link>http://ignoreme</link>
-<externallink>https://pastebin.com/raw/v4c5Myfn</externallink>
-</menu>
-
-<menu>
 <title>[COLOR white]•[/COLOR] [B][COLOR red]REPETICIONES[/COLOR][COLOR white]       MOTOR [/COLOR][/B]</title>
 <thumbnail>https://i.imgur.com/7fME6Vg.png</thumbnail>
 <fanart>https://i.imgur.com/IQjr0ib.jpg</fanart>
@@ -116,7 +108,6 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <fanart>https://i.imgur.com/dgmVSVF.jpg</fanart>
 </menu>
 
-
 <menu>
 <title>[COLOR white]•[/COLOR] [B][COLOR red]TDTChannels[/COLOR][COLOR white]       TELEVISION  [/COLOR][/B]</title>
 <link>$doregex[groupname]</link>
@@ -161,6 +152,14 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 <thumbnail>https://i.imgur.com/6M9kUPT.png</thumbnail>
 <fanart>https://i.imgur.com/IJupcZz.jpg</fanart>
+</menu>
+
+<menu>
+<title>[COLOR white]•[/COLOR] [B][COLOR red]DOCUMENTALES[/COLOR][/B]</title>
+<thumbnail>https://i.imgur.com/bcXqj1N.png</thumbnail>
+<fanart>https://i.imgur.com/22egwFT.jpg</fanart>
+<link>http://ignoreme</link>
+<externallink>https://pastebin.com/raw/v4c5Myfn</externallink>
 </menu>
 
 </menus>
