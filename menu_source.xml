@@ -109,7 +109,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </menu>
 
 <menu>
-<title>[COLOR white]•[/COLOR] [B][COLOR red]TDTChannels[/COLOR][COLOR white]       TELEVISION  [/COLOR][/B]</title>
+<title>[COLOR white]•[/COLOR] [B][COLOR brown]TDTChannels[/COLOR][COLOR white]       TELEVISION  [/COLOR][/B]</title>
 <link>$doregex[groupname]</link>
 <regex>
 <name>groupname</name>
@@ -155,7 +155,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </menu>
 
 <menu>
-<title>[COLOR white]•[/COLOR] [B][COLOR red]DOCUMENTALES[/COLOR][/B]</title>
+<title>[COLOR white]•[/COLOR] [B][COLOR violet]DOCUMENTALES[/COLOR][/B]</title>
 <thumbnail>https://i.imgur.com/bcXqj1N.png</thumbnail>
 <fanart>https://i.imgur.com/22egwFT.jpg</fanart>
 <link>http://ignoreme</link>
