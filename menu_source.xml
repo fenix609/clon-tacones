@@ -30,13 +30,13 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <fanart>https://i.imgur.com/t1Br0t4.jpg</fanart>
 </menu> -->
 
-<item>
+<menu>
 <title>Recetas de Cocina</title>
 <thumbnail>https://github.com/fenix609/clon-tacones/blob/main/cocina/icon%20cocina.png</thumbnail>
 <fanart>https://github.com/fenix609/clon-tacones/blob/main/cocina/fanart%20cocina.jpg</fanart>
 <link>http://ignoreme</link>
 <externallink>https://raw.githubusercontent.com/fenix609/addon/main/test1.xml</externallink>
-</item>
+</menu>
 
 <menu>
 <title>[COLOR white]•[/COLOR] [B][COLOR red]CINE[/COLOR][/B]</title>
