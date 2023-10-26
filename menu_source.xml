@@ -47,7 +47,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </menu>
 
 <menu>
-<title>[COLOR white]•[/COLOR] [B][COLOR red]SERIES [/COLOR][/B]</title>
+<title>[COLOR white]•[/COLOR] [B][COLOR orange]SERIES [/COLOR][/B]</title>
 <thumbnail>https://i.imgur.com/ASLlVXw.png</thumbnail>
 <fanart>https://i.imgur.com/8L5Aaw9.jpg</fanart>
 <link>http://ignoreme</link>
@@ -55,7 +55,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </menu>
 
 <menu>
-<title>[COLOR white]•[/COLOR] [B][COLOR red]REPETICIONES[/COLOR][COLOR white]       MOTOR [/COLOR][/B]</title>
+<title>[COLOR white]•[/COLOR] [B][COLOR blue]REPETICIONES[/COLOR][COLOR white]       MOTOR [/COLOR][/B]</title>
 <thumbnail>https://i.imgur.com/7fME6Vg.png</thumbnail>
 <fanart>https://i.imgur.com/IQjr0ib.jpg</fanart>
 <link>http://ignoreme</link>
@@ -63,7 +63,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </menu>
 
 <menu>
-<title>[COLOR white]•[/COLOR] [B][COLOR red]TDTChannels[/COLOR][COLOR white]       RADIO  [/COLOR][/B]</title>
+<title>[COLOR white]•[/COLOR] [B][COLOR yellow]TDTChannels[/COLOR][COLOR white]       RADIO  [/COLOR][/B]</title>
 <link>$doregex[groupname]</link>
 <regex>
 <name>groupname</name>
