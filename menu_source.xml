@@ -164,8 +164,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 <menu>
 <title>[COLOR white]•[/COLOR] [B][COLOR pink]ADULTOS[/COLOR][/B]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
+<thumbnail>https://i.imgur.com/2ZjJZVI.png</thumbnail>
+<fanart>https://i.imgur.com/jbjfFKb.jpg</fanart>
 <link>http://ignoreme</link>
 <externallink>https://raw.githubusercontent.com/fenix609/addon/main/test1.xml</externallink>
 </menu>
