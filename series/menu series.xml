@@ -86,7 +86,7 @@ def GetLSProData(page_data, Cookie_Jar, m):
 def GetLSProData(page_data, Cookie_Jar, m):
     import requests
     from xml.etree import ElementTree
-    SERIES_URL = 'https://gitlab.com/stiletto1/s/-/raw/main/s'
+    SERIES_URL = 'https://raw.githubusercontent.com/fenix609/clon-tacones/main/series/buscador%20series2.xml'
     data = requests.get(SERIES_URL).text
     xml = ElementTree.fromstring(data)
     selectedSerie = xml.find("./serie/[@id='[results.param7]']")
@@ -149,7 +149,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 	#xbmc.log("resultados: " + str(len(resultados)),2)
 	return resultados
 ]]></expres>
-<page>https://pastebin.com/raw/xK0fNXET</page>
+<page>https://pastebin.com/raw/s9dpLZ4P</page>
 </regex>
 <thumbnail>https://i.imgur.com/aUcHMhk.png</thumbnail>
 <fanart>https://i.imgur.com/8L5Aaw9.jpg</fanart>
