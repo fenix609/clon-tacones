@@ -416,7 +416,7 @@ def GetLSProData(page_data, Cookie_Jar, m):
     import unicodedata
     from xml.etree import ElementTree
     selectedGenre = '[genres.param1]'
-    SERIES_URL = 'https://gitlab.com/stiletto1/s/-/raw/main/s'
+    SERIES_URL = 'https://raw.githubusercontent.com/fenix609/clon-tacones/main/series/genero1.xml'
     data = requests.get(SERIES_URL).text
     data = unicodedata.normalize("NFKD", data).encode(
         "ascii", "ignore").decode("ascii")
