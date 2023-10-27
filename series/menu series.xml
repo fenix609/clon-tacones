@@ -23,7 +23,7 @@ def GetLSProData(page_data, Cookie_Jar, m):
     import difflib
     import xbmcgui
     from xml.etree import ElementTree
-    SERIES_URL = 'https://raw.githubusercontent.com/fenix609/clon-tacones/main/series/buscador.xml'
+    SERIES_URL = 'https://raw.githubusercontent.com/fenix609/clon-tacones/main/series/buscador%20series.xml'
     results = list()
     data = requests.get(SERIES_URL).text
     xml = ElementTree.fromstring(data)
@@ -60,7 +60,7 @@ def GetLSProData(page_data, Cookie_Jar, m):
     import requests
     from xml.etree import ElementTree
     results = list()
-    SERIES_URL = 'https://gitlab.com/stiletto1/s/-/raw/main/s'
+    SERIES_URL = 'https://raw.githubusercontent.com/fenix609/clon-tacones/main/series/buscador%20series1.xml'
     data = requests.get(SERIES_URL).text
     xml = ElementTree.fromstring(data)
     selectedSerie = xml.find("./serie/[@id='[results.param7]']")
