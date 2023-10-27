@@ -230,7 +230,7 @@ def GetLSProData(page_data, Cookie_Jar, m):
 def GetLSProData(page_data, Cookie_Jar, m):
     import requests
     from xml.etree import ElementTree
-    SERIES_URL = 'https://gitlab.com/stiletto1/s/-/raw/main/s'
+    SERIES_URL = 'https://raw.githubusercontent.com/fenix609/clon-tacones/main/series/series%20a-z%202.xml'
     data = requests.get(SERIES_URL).text
     xml = ElementTree.fromstring(data)
     selectedSerie = xml.find("./serie/[@id='[results.param7]']")
