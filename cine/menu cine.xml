@@ -86,7 +86,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page>
 </regex>
 <thumbnail>https://i.imgur.com/g412a9y.png</thumbnail>
-<fanart>https://i.imgur.com/R7oMOZO.jpg</fanart>
+<fanart>https://i.imgur.com/BsHTrvN.jpg</fanart>
 </menu>
 <menu>
 <title>[COLOR white]•[/COLOR] [B][COLOR red]TODAS[/COLOR][COLOR white]              (A-Z)[/COLOR][/B]</title>
@@ -121,7 +121,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page>
 </regex>
 <thumbnail>https://i.imgur.com/f9tpAmE.png</thumbnail>
-<fanart>https://i.imgur.com/R7oMOZO.jpg</fanart>
+<fanart>https://i.imgur.com/BsHTrvN.jpg</fanart>
 </menu>
 
 
@@ -130,7 +130,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <link>http://ignoreme</link>
 <externallink>https://raw.githubusercontent.com/fenix609/clon-tacones/main/cine/menu%20Calidad.xml</externallink>
 <thumbnail>https://i.imgur.com/3I3skgB.png</thumbnail>
-<fanart>https://i.imgur.com/R7oMOZO.jpg</fanart>
+<fanart>https://i.imgur.com/BsHTrvN.jpg</fanart>
 </menu>
 
 <menu>
@@ -138,7 +138,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <link>http://ignoreme</link>
 <externallink>https://pastebin.com/raw/cj2qhfgw</externallink>
 <thumbnail>https://i.imgur.com/eyTvbyC.png</thumbnail>
-<fanart>https://i.imgur.com/R7oMOZO.jpg</fanart>
+<fanart>https://i.imgur.com/BsHTrvN.jpg</fanart>
 </menu>
 
 <menu>
@@ -146,7 +146,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <link>http://ignoreme</link>
 <externallink>https://pastebin.com/raw/cGnS0tq9</externallink>
 <thumbnail>https://i.imgur.com/E2xELih.png</thumbnail>
-<fanart>https://i.imgur.com/R7oMOZO.jpg</fanart>
+<fanart>https://i.imgur.com/BsHTrvN.jpg</fanart>
 </menu>
 
 <menu>
@@ -182,7 +182,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page>
 </regex>
 <thumbnail>https://i.imgur.com/Hmc87sC.png</thumbnail>
-<fanart>https://i.imgur.com/R7oMOZO.jpg</fanart>
+<fanart>https://i.imgur.com/BsHTrvN.jpg</fanart>
 </menu>
 
 <menu>
@@ -218,7 +218,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page>
 </regex>
 <thumbnail>https://i.imgur.com/vX0Ycn6.png</thumbnail>
-<fanart>https://i.imgur.com/R7oMOZO.jpg</fanart>
+<fanart>https://i.imgur.com/BsHTrvN.jpg</fanart>
 </menu>
 
 <menu>
@@ -254,7 +254,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page>
 </regex>
 <thumbnail>https://i.imgur.com/vIX7Cnq.png</thumbnail>
-<fanart>https://i.imgur.com/R7oMOZO.jpg</fanart>
+<fanart>https://i.imgur.com/BsHTrvN.jpg</fanart>
 </menu>
 </menus>
   
