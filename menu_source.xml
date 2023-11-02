@@ -64,6 +64,14 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </menu>
 
 <menu>
+<title>[COLOR brown]•[/COLOR] [B][COLOR red]Canales Autonomicos[/COLOR][/B]</title>
+<thumbnail>https://i.imgur.com/gyUWTyK.png</thumbnail>
+<fanart>https://i.imgur.com/DLkC1jI.jpg</fanart>
+<link>http://ignoreme</link>
+<externallink>https://raw.githubusercontent.com/fenix609/clon-tacones/main/tv/canales%20autonomicos.xml</externallink>
+</menu>
+
+<menu>
 <title>[COLOR white]•[/COLOR] [B][COLOR yellow]TDTChannels[/COLOR][COLOR white]       RADIO  [/COLOR][/B]</title>
 <link>$doregex[groupname]</link>
 <regex>
