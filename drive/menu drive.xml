@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
-<menus>
+<menu>
 
 <menu>
-<title>[COLOR white]•[/COLOR] [B][COLOR lime]Series[/COLOR][/B]</title>
-<thumbnail>https://i.imgur.com/2ZjJZVI.png</thumbnail>
-<fanart>https://i.imgur.com/jbjfFKb.jpg</fanart>
-<externallink>https://raw.githubusercontent.com/fenix609/clon-tacones/main/drive/series/menu%20series.xml</externallink>
+<title>[COLOR white]•[/COLOR] [B][COLOR red]Series[/COLOR][/B]</title>
+<thumbnail>https://i.imgur.com/gyUWTyK.png</thumbnail>
+<fanart>https://i.imgur.com/DLkC1jI.jpg</fanart>
+<link>http://ignoreme</link>
+<externallink>tps://raw.githubusercontent.com/fenix609/clon-tacones/main/drive/series/menu%20series.xml</externallink>
 </menu>
 
-</menus>
+</menu>
