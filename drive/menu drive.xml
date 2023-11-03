@@ -3,15 +3,11 @@
 <menu>
 
 <menu>
-<title>[COLOR white]•[/COLOR] [B][COLOR lime]Juego de Tronos[/COLOR][/B]</title>
+<title>[COLOR white]•[/COLOR] [B][COLOR lime]Series[/COLOR][/B]</title>
 <thumbnail>https://i.imgur.com/2ZjJZVI.png</thumbnail>
 <fanart>https://i.imgur.com/jbjfFKb.jpg</fanart>
-<urlsolve>https://drive.google.com/file/d/1U6vHES9aSFKEEuhGuZ9fu0qz99tnofQI/view</urlsolve>
-<!-- <externallink>https://drive.google.com/file/d/1U6vHES9aSFKEEuhGuZ9fu0qz99tnofQI/view</externallink> -->
+<urlsolve>https://raw.githubusercontent.com/fenix609/clon-tacones/main/drive/menu%20drive.xml</urlsolve>
+<externallink></externallink>
 </menu>
 
 </menu>
-<!-- https://www.googledrive.com/host/1U6vHES9aSFKEEuhGuZ9fu0qz99tnofQI
-
-https://drive.google.com/file/d/1U6vHES9aSFKEEuhGuZ9fu0qz99tnofQI/view?usp=sharing
-https://drive.google.com/file/d/1U6vHES9aSFKEEuhGuZ9fu0qz99tnofQI/view -->
