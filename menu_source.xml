@@ -195,4 +195,12 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <externallink>https://raw.githubusercontent.com/fenix609/clon-tacones/main/drive/menu%20drive.xml</externallink>
 </menu>
 
+<menu>
+<title>[COLOR white]•[/COLOR] [B][COLOR red]PELICULAS/SERIES DRIVE funciona directo[/COLOR][/B]</title>
+<thumbnail>https://i.imgur.com/gyUWTyK.png</thumbnail>
+<fanart>https://i.imgur.com/DLkC1jI.jpg</fanart>
+<link>http://ignoreme</link>
+<externallink>https://raw.githubusercontent.com/fenix609/clon-tacones/main/drive/tronos1%20%20drive.xml</externallink>
+</menu>
+
 </menus>
