@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
-<menu>
+<menus>
 
 <menu>
 <title>[COLOR white]•[/COLOR] [B][COLOR lime]Series[/COLOR][/B]</title>
 <thumbnail>https://i.imgur.com/2ZjJZVI.png</thumbnail>
 <fanart>https://i.imgur.com/jbjfFKb.jpg</fanart>
-<urlsolve></urlsolve>
 <externallink>https://raw.githubusercontent.com/fenix609/clon-tacones/main/drive/series/menu%20series.xml</externallink>
 </menu>
 
-</menu>
+</menus>
