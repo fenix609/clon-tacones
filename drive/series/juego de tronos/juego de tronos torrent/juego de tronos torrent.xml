@@ -17,7 +17,7 @@
 def GetLSProData(page_data, Cookie_Jar, m):
     import requests
     from xml.etree import ElementTree
-    SERIES_URL = 'https://raw.githubusercontent.com/fenix609/clon-tacones/main/series/series%20a%C3%B1o.xml'
+    SERIES_URL = 'https://raw.githubusercontent.com/fenix609/clon-tacones/main/drive/series/juego%20de%20tronos/juego%20de%20tronos%20torrent/juego%20de%20tronos%20temporadas.xml'
     years = list()
     data = requests.get(SERIES_URL).text
     xml = ElementTree.fromstring(data)
@@ -43,7 +43,7 @@ def GetLSProData(page_data, Cookie_Jar, m):
 def GetLSProData(page_data, Cookie_Jar, m):
     import requests
     from xml.etree import ElementTree
-    SERIES_URL = 'https://raw.githubusercontent.com/fenix609/clon-tacones/main/series/series%20a%C3%B1o%201.xml'
+    SERIES_URL = 'https://raw.githubusercontent.com/fenix609/clon-tacones/main/drive/series/juego%20de%20tronos/juego%20de%20tronos%20torrent/juego%20de%20tronos%20temporadas.xml'
     data = requests.get(SERIES_URL).text
     results = list()
     xml = ElementTree.fromstring(data)
@@ -73,7 +73,7 @@ def GetLSProData(page_data, Cookie_Jar, m):
     import requests
     from xml.etree import ElementTree
     results = list()
-    SERIES_URL = 'https://raw.githubusercontent.com/fenix609/clon-tacones/main/series/series%20a%C3%B1o%202.xml'
+    SERIES_URL = 'https://raw.githubusercontent.com/fenix609/clon-tacones/main/drive/series/juego%20de%20tronos/juego%20de%20tronos%20torrent/juego%20de%20tronos%20temporadas.xml'
     data = requests.get(SERIES_URL).text
     xml = ElementTree.fromstring(data)
     selectedSerie = xml.find("./serie/[@id='[results.param7]']")
@@ -99,7 +99,7 @@ def GetLSProData(page_data, Cookie_Jar, m):
 def GetLSProData(page_data, Cookie_Jar, m):
     import requests
     from xml.etree import ElementTree
-    SERIES_URL = 'https://raw.githubusercontent.com/fenix609/clon-tacones/main/series/series%20a%C3%B1o%203.xml'
+    SERIES_URL = 'https://raw.githubusercontent.com/fenix609/clon-tacones/main/drive/series/juego%20de%20tronos/juego%20de%20tronos%20torrent/juego%20de%20tronos%20temporadas.xml'
     data = requests.get(SERIES_URL).text
     xml = ElementTree.fromstring(data)
     selectedSerie = xml.find("./serie/[@id='[results.param7]']")
