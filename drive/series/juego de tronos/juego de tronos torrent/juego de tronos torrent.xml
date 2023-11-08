@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<menu>
+<title>[COLOR white]•[/COLOR] [B][COLOR red]SERIES[/COLOR][COLOR white]                         AÑO[/COLOR][/B]</title>
+<link>$doregex[years]</link>
+<regex>
+<name>years</name>
+<listrepeat><![CDATA[
+<title>[COLOR red]•[/COLOR] [B][COLOR white][years.param1][/COLOR][/B]</title>
+<link>$doregex[results]</link>
+<year>[years.param1]</year>
+<info>[years.param1]</info>
+<thumbnail>https://i.imgur.com/wRdDrXp.png</thumbnail>
+<fanart>https://i.imgur.com/R7oMOZO.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data, Cookie_Jar, m):
+    import requests
+    from xml.etree import ElementTree
+    SERIES_URL = 'https://raw.githubusercontent.com/fenix609/clon-tacones/main/series/series%20a%C3%B1o.xml'
+    years = list()
+    data = requests.get(SERIES_URL).text
+    xml = ElementTree.fromstring(data)
+    series = xml.findall('serie')
+    for serie in series:
+        years.append(serie.find('year').text)
+    return sorted(list(set(years)), reverse=True)
+]]></expres>
+<page></page>
+</regex>
+<regex>
+<name>results</name>
+<listrepeat><![CDATA[
+<title>[COLOR red]•[/COLOR] [B][COLOR white][results.param1][/COLOR][/B]</title>
+<link>$doregex[season]</link>
+<year>[results.param3]</year>
+<genre>[results.param4]</genre>
+<info>[results.param2]</info>
+<thumbnail>[results.param5]</thumbnail>
+<fanart>[results.param6]</fanart>
+]]></listrepeat>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data, Cookie_Jar, m):
+    import requests
+    from xml.etree import ElementTree
+    SERIES_URL = 'https://raw.githubusercontent.com/fenix609/clon-tacones/main/series/series%20a%C3%B1o%201.xml'
+    data = requests.get(SERIES_URL).text
+    results = list()
+    xml = ElementTree.fromstring(data)
+    yearSeries = xml.findall("./serie/[year='[years.param1]']")
+    METADATA_KEYS = ['title', 'info', 'year', 'genre', 'thumb', 'fanart']
+    for serie in list(sorted(yearSeries, key=lambda serie: serie.find('title').text)):
+        results.append(tuple([*[serie.find(key).text for key in METADATA_KEYS],
+                            serie.get('id')]))
+    return results
+
+]]></expres>
+<page></page>
+</regex>
+<regex>
+<name>season</name>
+<listrepeat><![CDATA[
+<title>[B][COLOR red]•[/COLOR] [COLOR white][results.param1] [/COLOR][COLOR red] Temporada [season.param1][/COLOR][/B]</title>
+<link>$doregex[episodes]</link>
+<year>[results.param3]</year>
+<genre>[results.param4]</genre>
+<info>[results.param2]</info>
+<thumbnail>[season.param2]</thumbnail>
+<fanart>[results.param6]</fanart>
+]]></listrepeat>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data, Cookie_Jar, m):
+    import requests
+    from xml.etree import ElementTree
+    results = list()
+    SERIES_URL = 'https://raw.githubusercontent.com/fenix609/clon-tacones/main/series/series%20a%C3%B1o%202.xml'
+    data = requests.get(SERIES_URL).text
+    xml = ElementTree.fromstring(data)
+    selectedSerie = xml.find("./serie/[@id='[results.param7]']")
+    seasons = selectedSerie.find('seasons')
+    for season in seasons:
+        results.append(
+            tuple(list([season.get('id'), season.get('thumb')])))
+    return results
+]]></expres>
+<page></page>
+</regex><regex>
+<name>episodes</name>
+<listrepeat><![CDATA[
+<title>[B][COLOR red][results.param1] [season.param1][/COLOR][COLOR white]   [episodes.param1][/COLOR][/B]</title>
+<link>plugin://plugin.video.elementum/play?uri=magnet:?xt=urn:btih:[episodes.param2]</link>
+<year>[results.param3]</year>
+<genre>[results.param4]</genre>
+<info>[results.param2]</info>
+<thumbnail>[season.param2]</thumbnail>
+<fanart>[results.param6]</fanart>
+]]></listrepeat>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data, Cookie_Jar, m):
+    import requests
+    from xml.etree import ElementTree
+    SERIES_URL = 'https://raw.githubusercontent.com/fenix609/clon-tacones/main/series/series%20a%C3%B1o%203.xml'
+    data = requests.get(SERIES_URL).text
+    xml = ElementTree.fromstring(data)
+    selectedSerie = xml.find("./serie/[@id='[results.param7]']")
+    seasons = selectedSerie.find('seasons')
+    selectedSeason = seasons.find("season/[@id='[season.param1]']")
+    episodeLinks = list()
+    for episode in list(sorted(selectedSeason.findall('episode'), key=lambda episode: int(episode.get('id')))):
+        episodeLinks.append(
+            tuple(list([episode.get('name'), episode.get('link')])))
+    return episodeLinks
+]]></expres>
+<page></page>
+</regex>
+<thumbnail>https://i.imgur.com/eyTvbyC.png</thumbnail>
+<fanart>https://i.imgur.com/R7oMOZO.jpg</fanart>
+</menu>
