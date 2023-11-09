@@ -1,37 +1,17 @@
 <?xml version="1.0" encoding="UTF.8" standalone="yes"?>
 
-addonID = 'plugin.video.fenix'
-addon = Addon(addonID, sys.argv)
-local = xbmcaddon.Addon(id=addonID)
-icon = local.getAddonInfo('icon')
+<item>
+<title>*****TITULO*******</title>
+<link>plugin://plugin.video.youtube/play/?video_id=UC6-yMLlgnVL8f38wW8WUh-w</link>
+<thumbnail></thumbnail>
+</item>
+
 
 YOUTUBE_CHANNEL_ID_1 = "UC6-yMLlgnVL8f38wW8WUh-w"
-
-# Entry point
-def run():
-    plugintools.log("docu.run")
-    # Get params
-    params = plugintools.get_params()
-    
-    if params.get("action") is None:
-        main_list(params)
-    else:
-        action = params.get("action")
-        exec action+"(params)"
-    
-    plugintools.close_item_list()
-
-# Main menu
-def main_list(params):
-    plugintools.log("docu.main_list "+repr(params))
-
-    plugintools.add_item( 
-        #action="", 
-        title="[COLOR lime]Entrar.[/COLOR]",
+<item>
+title="[COLOR lime]Entrar.[/COLOR]",
         url="plugin://plugin.video.youtube/channel/"+YOUTUBE_CHANNEL_ID_1+"/",
         thumbnail="https://www.bodegasmezquita.com/wp-content/uploads/2014/04/logo-logotipo-cometelo-canalsur.jpg",
 		fanart="http://www.coloryn.com/es/images/stories/cometelo.jpg",
         folder=True )
-
-		
-run()
+</item>
