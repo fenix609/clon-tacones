@@ -3,19 +3,26 @@
 <menus>
 
 <menu>
-<title>[COLOR white]•[/COLOR] [B][COLOR red]Peliculas pilarica [/COLOR][/B]</title>
-<thumbnail>https://i.imgur.com/gyUWTyK.png</thumbnail>
-<fanart>https://i.imgur.com/DLkC1jI.jpg</fanart>
-<link>http://pilarika.no-ip.org/Cine/Cine_01</link>
-<externallink></externallink>
+    <title>[COLOR white]•[/COLOR] [B][COLOR red]Peliculas pilarica [/COLOR][/B]</title>
+    <thumbnail>https://i.imgur.com/gyUWTyK.png</thumbnail>
+    <fanart>https://i.imgur.com/DLkC1jI.jpg</fanart>
+    <link>http://pilarika.no-ip.org/Cine/Cine_01</link>
+    <externallink></externallink>
+    <urlsolve></urlsolve>
+    <microhd>NA</microhd>
 </menu>
 
 <menu>
-<title>[COLOR white]•[/COLOR] [B][COLOR red]Peliculas pilarica [/COLOR][/B]</title>
-<thumbnail>https://i.imgur.com/gyUWTyK.png</thumbnail>
-<fanart>https://i.imgur.com/DLkC1jI.jpg</fanart>
-<link>http://ignoreme</link>
-<externallink>http://pilarika.no-ip.org/Cine/Cine_01</externallink>
+    <title>[COLOR white]•[/COLOR] [B][COLOR red]Peliculas pilarica [/COLOR][/B]</title>
+    <thumbnail>https://i.imgur.com/gyUWTyK.png</thumbnail>
+    <fanart>https://i.imgur.com/DLkC1jI.jpg</fanart>
+    <link>http://ignoreme</link>
+    <externallink>http://pilarika.no-ip.org/Cine/Cine_01</externallink>
+    <urlsolve></urlsolve>
+    <fullhd></fullhd>
+	<tresd>NA</tresd>
+	<cuatrok></cuatrok>
+    <microhd></microhd>
 </menu>
 
 </menus>
