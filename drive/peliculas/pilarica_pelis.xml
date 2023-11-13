@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
-<item>
+<menu>
 
-    <item>
+   <menu>
 	    <title>[COLOR white]•[/COLOR] [B][COLOR lime]Prueba pilarica[/COLOR][/B]</title>
         <!-- <thumbnail>https://i.imgur.com/2ZjJZVI.png</thumbnail>
         <fanart>https://i.imgur.com/jbjfFKb.jpg</fanart>
@@ -17,9 +17,9 @@
 		<genre>Intriga. Fantástico. Terror</genre>
 		<extra>NA</extra>
 		<info>Dos rancheros de un remoto pueblo del interior de California hacen un descubrimiento tan insólito como escalofriante.</info> -->
-	</item>
+	</menu>
 	
-	<item>
+	<menu>
 	    <title>[COLOR white]•[/COLOR] [B][COLOR lime]Prueba pilarica[/COLOR][/B]</title>
        <!--  <thumbnail>https://i.imgur.com/2ZjJZVI.png</thumbnail>
         <fanart>https://i.imgur.com/jbjfFKb.jpg</fanart>
@@ -34,9 +34,9 @@
 		<genre>Intriga. Fantástico. Terror</genre>
 		<extra>NA</extra>
 		<info>Dos rancheros de un remoto pueblo del interior de California hacen un descubrimiento tan insólito como escalofriante.</info> -->
-	</item>
+	</menu>
 	
-	<item>
+	<menu>
 	    <title>[COLOR white]•[/COLOR] [B][COLOR lime]Prueba pilarica[/COLOR][/B]</title>
         <!-- <thumbnail>https://i.imgur.com/2ZjJZVI.png</thumbnail>
         <fanart>https://i.imgur.com/jbjfFKb.jpg</fanart>
@@ -51,9 +51,9 @@
 		<genre>Intriga. Fantástico. Terror</genre>
 		<extra>NA</extra>
 		<info>Dos rancheros de un remoto pueblo del interior de California hacen un descubrimiento tan insólito como escalofriante.</info> -->
-	</item>
+	</menu>
 	
-	<item>
+	<menu>
 	    <title>[COLOR white]•[/COLOR] [B][COLOR lime]Prueba pilarica[/COLOR][/B]</title>
        <!--  <thumbnail>https://i.imgur.com/2ZjJZVI.png</thumbnail>
         <fanart>https://i.imgur.com/jbjfFKb.jpg</fanart>
@@ -68,6 +68,6 @@
 		<genre>Intriga. Fantástico. Terror</genre>
 		<extra>NA</extra>
 		<info>Dos rancheros de un remoto pueblo del interior de California hacen un descubrimiento tan insólito como escalofriante.</info> -->
-	</item>
+	</menu>
 	
-</item>
+</menu>
