@@ -43,7 +43,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail>https://i.imgur.com/gyUWTyK.png</thumbnail>
 <fanart>https://i.imgur.com/DLkC1jI.jpg</fanart>
 <link>http://ignoreme</link>
-<externallink>https://raw.githubusercontent.com/fenix609/clon-tacones/main/playlistloader.xml</externallink>
+<externallink>https://raw.githubusercontent.com/fenix609/clon-tacones/main/plugin.video.playlistloader/addon.xml</externallink>
 </menu>
 
 <menu>
