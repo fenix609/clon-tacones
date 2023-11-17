@@ -42,8 +42,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <title>[COLOR white]•[/COLOR] [B][COLOR red]PELICULAS M3U playlistloader[/COLOR][/B]</title>
 <thumbnail>https://i.imgur.com/gyUWTyK.png</thumbnail>
 <fanart>https://i.imgur.com/DLkC1jI.jpg</fanart>
-<link>http://ignoreme</link>
-<externallink>https://raw.githubusercontent.com/fenix609/clon-tacones/main/plugin.video.playlistloader/addon.xml</externallink>
+<externallink>http://ignoreme</externallink>
+<link>https://raw.githubusercontent.com/fenix609/clon-tacones/main/plugin.video.playlistloader/addon.xml</link>
 </menu>
 
 <menu>
