@@ -39,6 +39,14 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </menu>
 
 <menu>
+<title>[COLOR white]•[/COLOR] [B][COLOR red]PELICULAS M3U playlistloader[/COLOR][/B]</title>
+<thumbnail>https://i.imgur.com/gyUWTyK.png</thumbnail>
+<fanart>https://i.imgur.com/DLkC1jI.jpg</fanart>
+<link>http://ignoreme</link>
+<externallink>https://raw.githubusercontent.com/fenix609/clon-tacones/main/playlistloader.xml</externallink>
+</menu>
+
+<menu>
 <title>[COLOR white]•[/COLOR] [B][COLOR lime]RECETAS DE COCINA[/COLOR][/B]</title>
 <thumbnail>https://i.imgur.com/2ZjJZVI.png</thumbnail>
 <fanart>https://i.imgur.com/jbjfFKb.jpg</fanart>
