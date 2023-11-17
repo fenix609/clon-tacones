@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<menus>
+
+<menu>
+    <title>[COLOR white]•[/COLOR] [B][COLOR red]Peliculas pilarica [/COLOR][/B]</title>
+    <thumbnail>https://i.imgur.com/gyUWTyK.png</thumbnail>
+    <fanart>https://i.imgur.com/DLkC1jI.jpg</fanart>
+    <link>http://pilarika.no-ip.org/Cine/Cine_31/Los%20Goonies.mp4</link>
+    <externallink></externallink>
+    <urlsolve></urlsolve>
+    <microhd>NA</microhd>
+</menu>
+
+<menu>
+    <title>[COLOR white]•[/COLOR] [B][COLOR red]Peliculas pilarica [/COLOR][/B]</title>
+    <thumbnail>https://i.imgur.com/gyUWTyK.png</thumbnail>
+    <fanart>https://i.imgur.com/DLkC1jI.jpg</fanart>
+    <link>http://ignoreme</link>
+    <externallink></externallink>
+    <urlsolve>http://pilarika.no-ip.org/Cine/Cine_01/001_-_Alejandro_Magno.mp4</urlsolve>
+    <fullhd></fullhd>
+	<tresd>NA</tresd>
+	<cuatrok></cuatrok>
+    <microhd></microhd>
+</menu>
+
+<menu>
+    <title>[COLOR white]•[/COLOR] [B][COLOR red]Peliculas pilarica [/COLOR][/B]</title>
+    <thumbnail>https://i.imgur.com/gyUWTyK.png</thumbnail>
+    <fanart>https://i.imgur.com/DLkC1jI.jpg</fanart>
+    <link></link>
+    <externallink></externallink>
+    <urlsolve>http://pilarika.no-ip.org/Cine/Cine_31/Los%20Goonies.mp4</urlsolve>
+    <fullhd></fullhd>
+	<tresd>NA</tresd>
+	<cuatrok></cuatrok>
+    <microhd></microhd>
+</menu>
+</menus>
+
+
+
+
+
+  
+        <!-- <thumbnail>https://i.imgur.com/2ZjJZVI.png</thumbnail>
+        <fanart>https://i.imgur.com/jbjfFKb.jpg</fanart>
+        <urlsolve></urlsolve>
+		<externallink></externallink>
+		<link>http://pilarika.no-ip.org/Cine/Cine_01/</link>
+		<microhd>NA</microhd>
+		<fullhd></fullhd>
+		<tresd>NA</tresd>
+		<cuatrok></cuatrok>
+		<date>2022</date>
+		<genre>Intriga. Fantástico. Terror</genre>
+		<extra>NA</extra>
+		<info>Dos rancheros de un remoto pueblo del interior de California hacen un descubrimiento tan insólito como escalofriante.</info> -->
+	
