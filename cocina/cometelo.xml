@@ -3,15 +3,15 @@
 
 <!-- para sacar erl id de un canal de youtube sacar codigo funte y buscar browseid -->
 
-<item>
-<title>*****ometelo*******</title>
-<link>plugin://plugin.video.youtube/play/?video_id=UC6-yMLlgnVL8f38wW8WUh-w</link>
-<thumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROxn4Dz1UqBoJZz9ME_OldXLrhNouN3415t5wPuW1lwHDp1HDm0KUvBcHw3U7H6oki3k8&usqp=CAU</thumbnail>
-</item>
+ <item>
+  <title>*****ometelo*******</title>
+  <link>plugin://plugin.video.youtube/play/?video_id=UC6-yMLlgnVL8f38wW8WUh-w</link>
+  <thumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROxn4Dz1UqBoJZz9ME_OldXLrhNouN3415t5wPuW1lwHDp1HDm0KUvBcHw3U7H6oki3k8&usqp=CAU</thumbnail>
+ </item>
 
-<item>
-<title>*****Alberto Chicote*******</title>
-<link>https://www.youtube.com/channel/UCpMXMR99Qd11oF7_XhbeM1w</link>
-<thumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCJO4EB80jvWFLGjzjoC2si6ur3fM9Rt66q7I_a6p0UHqKpQkxTgttkOv0T8y7EWZ_xPg&usqp=CAU</thumbnail>
-</item>
+ <item>
+  <title>*****Alberto Chicote*******</title>
+  <link>https://www.youtube.com/channel/UCpMXMR99Qd11oF7_XhbeM1w</link>
+  <thumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCJO4EB80jvWFLGjzjoC2si6ur3fM9Rt66q7I_a6p0UHqKpQkxTgttkOv0T8y7EWZ_xPg&usqp=CAU</thumbnail>
+ </item>
 
