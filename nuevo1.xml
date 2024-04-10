@@ -1,49 +1,4 @@
-
-
-
- <menus>
-   <menus_info>
-   <title>[COLOR white]•[/COLOR] [B][COLOR red]Addon Tacones Fenix[/COLOR][/B]</title>
-   <genre>ALL</genre>
-   <description>Addon sin animo de lucro y con fines exclusivamente educativos</description>
-   <thumbnail>icon.png</thumbnail>
-   <fanart>fanart.jpg</fanart>
-   </menus_info>  
-
-   <menu>
-   <title>[COLOR white]•[/COLOR] [B][COLOR red]PELICULAS M3U[/COLOR][/B]</title>
-   <thumbnail>https://i.imgur.com/gyUWTyK.png</thumbnail>
-   <fanart>https://i.imgur.com/DLkC1jI.jpg</fanart>
-   <link>http://ignoreme</link>
-   <externallink>https://raw.githubusercontent.com/fenix609/clon-tacones/main/drive/peliculas/pelis%20-%20m3u.xml</externallink>
-   </menu>
-
-   <menu>
-   <title>[COLOR white]•[/COLOR] [B][COLOR lime]RECETAS DE COCINA[/COLOR][/B]</title>
-   <thumbnail>https://i.imgur.com/2ZjJZVI.png</thumbnail>
-   <fanart>https://i.imgur.com/jbjfFKb.jpg</fanart>
-   <link>http://ignoreme</link>
-   <externallink>https://raw.githubusercontent.com/fenix609/clon-tacones/main/cocina/cometelo.xml</externallink>
-   </menu>
-
-
-   <menu>
-   <title>[COLOR white]•[/COLOR] [B][COLOR red]PELICULAS/SERIES DRIVE FENIX[/COLOR][/B]</title>
-   <thumbnail>https://i.imgur.com/gyUWTyK.png</thumbnail>
-   <fanart>https://i.imgur.com/DLkC1jI.jpg</fanart>
-   <link>http://ignoreme</link>
-   <externallink>https://raw.githubusercontent.com/fenix609/clon-tacones/main/drive/menu%20drive.xml</externallink>
-   </menu>
-
-   <menu>
-   <title>[COLOR white]•[/COLOR] [B][COLOR red]PELICULAS/SERIES DRIVE funciona directo[/COLOR][/B]</title>
-   <thumbnail>https://i.imgur.com/gyUWTyK.png</thumbnail>
-   <fanart>https://i.imgur.com/DLkC1jI.jpg</fanart>
-   <link>http://ignoreme</link>
-   <externallink>https://raw.githubusercontent.com/fenix609/clon-tacones/main/drive/tronos1%20%20drive.xml</externallink>
-   </menu>
-   
-   <menu>
+ <menu>
 <title>[COLOR white]•[/COLOR] [B][COLOR red]CINE[/COLOR][/B]</title>
 <thumbnail>https://i.imgur.com/gyUWTyK.png</thumbnail>
 <fanart>https://i.imgur.com/R7oMOZO.jpg</fanart>
@@ -176,5 +131,3 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail>https://i.imgur.com/Px871XF.jpg</thumbnail>
 <fanart>https://i.imgur.com/P9rlq5c.jpg</fanart>
 </menu>
-
- </menus>
