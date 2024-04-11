@@ -28,7 +28,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
     import json
     import difflib
     from xml.etree import ElementTree
-    data = requests.get('https://gitlab.com/stiletto1/s/-/raw/main/c').text
+    data = requests.get('https://raw.githubusercontent.com/fenix609/clon-tacones/main/cine/c.xml').text
     xml = ElementTree.fromstring(data)
     inputText = xbmcgui.Dialog().input('Buscar Pelicula: ', type=xbmcgui.INPUT_ALPHANUM).upper()
     
@@ -103,7 +103,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <fanart>[index.param7]</fanart>
 ]]></listrepeat>
 <expres>title.(.*)..title.\s*.microhd.(.*)..microhd.\s*.fullhd.(.*)..fullhd.\s*.tresd.(.*)..tresd.\s*.cuatrok.(.*)..cuatrok.\s*.thumbnail.(.*)..thumbnail.\s*.fanart.(.*)..fanart.\s*.date.(.*)..date.\s*.genre.(.*)..genre.\s*.extra.(.*)..extra.\s*.info.(.*)..info.</expres>
-<page>https://gitlab.com/stiletto1/s/-/raw/main/c</page>
+<page>https://raw.githubusercontent.com/fenix609/clon-tacones/main/cine/c.xml</page>
 </regex>
 <regex>
 <name>gestor</name>
@@ -164,7 +164,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <fanart>[index.param7]</fanart>
 ]]></listrepeat>
 <expres>title.(.*)..title.\s*.microhd.(.*)..microhd.\s*.fullhd.(.*)..fullhd.\s*.tresd.(.*)..tresd.\s*.cuatrok.(.*)..cuatrok.\s*.thumbnail.(.*)..thumbnail.\s*.fanart.(.*)..fanart.\s*.date.(.*)..date.\s*.genre.(.*)..genre.\s*.extra.*(Culto).*extra.\s*.info.(.*)..info.</expres>
-<page>https://gitlab.com/stiletto1/s/-/raw/main/c</page>
+<page>https://raw.githubusercontent.com/fenix609/clon-tacones/main/cine/c.xml</page>
 </regex>
 <regex>
 <name>gestor</name>
@@ -200,7 +200,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <fanart>[index.param7]</fanart>
 ]]></listrepeat>
 <expres>title.(.*)..title.\s*.microhd.(.*)..microhd.\s*.fullhd.(.*)..fullhd.\s*.tresd.(.*)..tresd.\s*.cuatrok.(.*)..cuatrok.\s*.thumbnail.(.*)..thumbnail.\s*.fanart.(.*)..fanart.\s*.date.(.*)..date.\s*.genre.(.*)..genre.\s*.extra.*(Estreno).*extra.\s*.info.(.*)..info.</expres>
-<page>https://gitlab.com/stiletto1/s/-/raw/main/c</page>
+<page>https://raw.githubusercontent.com/fenix609/clon-tacones/main/cine/c.xml</page>
 </regex>
 <regex>
 <name>gestor</name>
@@ -236,7 +236,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <fanart>[index.param7]</fanart>
 ]]></listrepeat>
 <expres>title.(.*)..title.\s*.microhd.(.*)..microhd.\s*.fullhd.(.*)..fullhd.\s*.tresd.(.*)..tresd.\s*.cuatrok.(.*)..cuatrok.\s*.thumbnail.(.*)..thumbnail.\s*.fanart.(.*)..fanart.\s*.date.(.*)..date.\s*.genre.(.*)..genre.\s*.extra.*(Mis).*extra.\s*.info.(.*)..info.</expres>
-<page>https://gitlab.com/stiletto1/s/-/raw/main/c</page>
+<page>https://raw.githubusercontent.com/fenix609/clon-tacones/main/cine/c.xml</page>
 </regex>
 <regex>
 <name>gestor</name>
@@ -272,7 +272,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <fanart>[index.param7]</fanart>
 ]]></listrepeat>
 <expres>title.(.*)..title.\s*.microhd.(.*)..microhd.\s*.fullhd.(.*)..fullhd.\s*.tresd.(.*)..tresd.\s*.cuatrok.(.*)..cuatrok.\s*.thumbnail.(.*)..thumbnail.\s*.fanart.(.*)..fanart.\s*.date.(.*)..date.\s*.genre.(.*)..genre.\s*.extra.*(Mis).*extra.\s*.info.(.*)..info.</expres>
-<page>https://gitlab.com/stiletto1/s/-/raw/main/c</page>
+<page>https://raw.githubusercontent.com/fenix609/clon-tacones/main/cine/c.xml</page>
 </regex>
 <regex>
 <name>gestor</name>
