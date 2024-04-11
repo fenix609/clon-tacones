@@ -186,7 +186,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </menu>
 
 <menu>
-<title>[COLOR white]•[/COLOR] [B][COLOR red]CINE DE[/COLOR]    [COLOR white]        ESTRENO[/COLOR][/B]</title>
+<title>[COLOR white]•[/COLOR] [B][COLOR red]CINE DE[/COLOR]    [COLOR white]        ESTRENO TACONES ORIGINAL[/COLOR][/B]</title>
 <link>$doregex[index]</link>
 <regex>
 <name>index</name>
@@ -200,7 +200,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <fanart>[index.param7]</fanart>
 ]]></listrepeat>
 <expres>title.(.*)..title.\s*.microhd.(.*)..microhd.\s*.fullhd.(.*)..fullhd.\s*.tresd.(.*)..tresd.\s*.cuatrok.(.*)..cuatrok.\s*.thumbnail.(.*)..thumbnail.\s*.fanart.(.*)..fanart.\s*.date.(.*)..date.\s*.genre.(.*)..genre.\s*.extra.*(Estreno).*extra.\s*.info.(.*)..info.</expres>
-<page>https://raw.githubusercontent.com/fenix609/clon-tacones/main/cine/c.xml</page>
+<page>https://gitlab.com/stiletto1/s/-/raw/main/c</page>
 </regex>
 <regex>
 <name>gestor</name>
