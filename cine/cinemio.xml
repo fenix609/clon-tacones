@@ -26,6 +26,20 @@
          <fanart>nolink</fanart>
          <urlsolve>https://drive.google.com/file/d/1dh7mflPCx-yAhk3wCmlo_FWW5q5NsjQ_/view?usp=sharing</urlsolve>
    </menu>
+   
+   <menu>
+		<title>[B][COLOR red]MOTO GP 2023[/COLOR]     [COLOR white] 1 GRAN PREMIO DE PORTUGAL [/COLOR][/B]</title>
+		<link>plugin://plugin.video.elementum/play?uri=magnet:?xt=urn:btih:PNNBXETDODAOPQ7VYAN4OAOFETEBASF3</link>
+		<thumbnail>https://i.imgur.com/4tt7Apr.png</thumbnail>
+		<fanart>https://i.imgur.com/5i9xESb.jpg</fanart>
+	</menu>
+
+	<menu>
+		<title>[B][COLOR red]MOTO GP 2023[/COLOR]     [COLOR white] 2 GRAN PREMIO DE ARGENTINA[/COLOR][/B]</title>
+		<link>plugin://plugin.video.elementum/play?uri=magnet:?xt=urn:btih:GATWN6Y7RL3YPV2YCTUVEU4YXGMOCDDD</link>
+		<thumbnail>https://i.imgur.com/4tt7Apr.png</thumbnail>
+		<fanart>https://i.imgur.com/5i9xESb.jpg</fanart>
+	</menu>
 </menu>
 
 <!-- https://drive.google.com/file/d/1dh7mflPCx-yAhk3wCmlo_FWW5q5NsjQ_/view?usp=sharing
