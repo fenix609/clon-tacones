@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<items>
+<menu>
 	
-	<item>
+	<menu>
 		<title>300</title>
 		<microhd>1U6vHES9aSFKEEuhGuZ9fu0qz99tnofQI</microhd>
 		<fullhd>1U6vHES9aSFKEEuhGuZ9fu0qz99tnofQI</fullhd>
@@ -13,9 +13,20 @@
 		<genre>Acción. Bélico. Aventuras. Fantástico</genre>
 		<extra>Mis</extra>
 		<info>Adaptación del cómic de Frank Miller (autor del cómic 'Sin City') sobre la famosa batalla de las Termópilas (480 a.C.). El objetivo de Jerjes, emperador de Persia, era la conquista de Grecia, lo que desencadenó las Guerras Médicas. Dada la gravedad de la situación, el rey Leónidas de Esparta (Gerard Butler) y 300 espartanos se enfrentaron a un ejército persa que era inmensamente superior.</info>
-	</item>	
-	
-</items>
+	</menu>	
+	<menu>
+         <title>[COLOR white]- Capitulo [/COLOR][B][COLOR red] :[/COLOR][/B]</title>
+         <thumbnail>nolink</thumbnail>
+         <fanart>nolink</fanart>
+         <urlsolve></urlsolve>
+   </menu>
+   <menu>
+         <title>[COLOR white]- Capitulo [/COLOR][B][COLOR red] :[/COLOR][/B]</title>
+         <thumbnail>nolink</thumbnail>
+         <fanart>nolink</fanart>
+         <urlsolve></urlsolve>
+   </menu>
+</menu>
 
 <!-- https://drive.google.com/file/d/1dh7mflPCx-yAhk3wCmlo_FWW5q5NsjQ_/view?usp=sharing
 
