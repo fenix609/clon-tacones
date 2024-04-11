@@ -128,7 +128,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <menu>
 <title>[COLOR white]•[/COLOR] [B][COLOR red]CALIDAD[/COLOR][COLOR white]          MICROHD, BDRIP, 3D, 4K[/COLOR][/B]</title>
 <link>http://ignoreme</link>
-<externallink>https://gitlab.com/konectas2/tacones/-/raw/main/cine_calidad</externallink>
+<externallink>https://raw.githubusercontent.com/fenix609/clon-tacones/main/cine/cine_calidad.xml</externallink>
 <thumbnail>https://i.imgur.com/3I3skgB.png</thumbnail>
 <fanart>https://i.imgur.com/R7oMOZO.jpg</fanart>
 </menu>
