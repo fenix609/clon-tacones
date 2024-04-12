@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <menu>
 	
-
+	<menu>
+         <title>[COLOR white]- Capitulo [/COLOR][B][COLOR red] :[/COLOR][/B]</title>
+         <thumbnail>nolink</thumbnail>
+         <fanart>nolink</fanart>
+         <urlsolve>https://drive.google.com/file/d/1U6vHES9aSFKEEuhGuZ9fu0qz99tnofQI/view</urlsolve>
+   </menu>
+   
 </menu>
 
 <!-- https://drive.google.com/file/d/1dh7mflPCx-yAhk3wCmlo_FWW5q5NsjQ_/view?usp=sharing
